@@ -1,0 +1,13 @@
+@media screen and (max-width:1024px) {
+    .choosefimls {
+        flex-direction: column;
+        height: 200px;
+    }
+}
+/* @media screen and (min-width:768px) {
+    .choosefimls {
+        flex-direction: column;
+        width: 350px;
+        height: 200px;
+    }
+} */

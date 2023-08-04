@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1024px) {
+  .carousel img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .carousel img {
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    object-fit: cover;
+  }
+  .carousel i {
+    left: 20%;
+  }
+}

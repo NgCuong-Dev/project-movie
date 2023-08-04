@@ -1,0 +1,16 @@
+@media only screen and (max-width:1024px){
+    .detailpage{
+        flex-direction: column;
+        height: 100%;
+    }
+    .detailpage img{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width:768px) {
+
+    .play{
+    opacity: 0;
+    }
+}
