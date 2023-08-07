@@ -33,10 +33,10 @@ export default function Introduce() {
           TIX có hai phiên bản <a href="">IOS&Android</a>
         </span>
       </div>
-      <div className="content_right h-full pt-10">
+      <div className="content_right h-full pt-10 animate-spin">
         <div
           className="h-full w-60 bg-contain bg-no-repeat p-2"
-          style={{ backgroundImage: "url(./img/dienthoai.png)" }}
+          style={{ backgroundImage: "url(./img/dienthoai.png)",marginTop:"100%" }}
         >
           {/* <img src={dienthoai} width={210} alt=""></img> */}
           <img
