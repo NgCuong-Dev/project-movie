@@ -25,7 +25,6 @@ export default function Details() {
   let params = useParams();
   console.log(params);
   const [movie, setMovie] = useState({});
-  console.log(movie);
   useEffect(() => {
     let fetchDetail = async () => {
       try {

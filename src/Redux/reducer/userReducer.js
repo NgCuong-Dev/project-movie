@@ -5,7 +5,6 @@ const initialState = {
   userInfo: localUserServ.get(),
   userRegister: localUserServ.getRegister(),
 };
-
 let userReducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case SET_USER_LOGIN: {

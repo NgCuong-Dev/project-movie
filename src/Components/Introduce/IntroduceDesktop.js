@@ -1,6 +1,6 @@
 import React from "react";
 import banner_intro from "../../Assets/introduce_background.jpg";
-import dienthoai from "../../Assets/dienthoai.png";
+// import dienthoai from "../../Assets/dienthoai.png";
 import banner from "../../Assets/intro_phone.jpg";
 export default function Introduce() {
   return (
@@ -13,7 +13,7 @@ export default function Introduce() {
         height: "110vh",
       }}
     >
-      <div
+      <divq
         className="content_left space-y-7 w-1/2 "
         style={{ zIndex: "999999", color: "white" }}
       >
@@ -30,10 +30,10 @@ export default function Introduce() {
         </button>
         <br />
         <span className="pt-3">
-          TIX có hai phiên bản <a href="">IOS&Android</a>
+          TIX có hai phiên bản <a>IOS&Android</a>
         </span>
-      </div>
-      <div className="content_right h-full pt-10 animate-spin">
+      </divq>
+      <div className="content_right h-full">
         <div
           className="h-full w-60 bg-contain bg-no-repeat p-2"
           style={{ backgroundImage: "url(./img/dienthoai.png)",marginTop:"100%" }}
